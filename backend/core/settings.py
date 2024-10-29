@@ -69,7 +69,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'core.wsgi.application'
 
 
-DB_DEBUG = False  # make this true if you want to use the sqlite databse, which is not a very reliable option
+DB_DEBUG = True  # make this true if you want to use the sqlite databse, which is not a very reliable option
 
 if DB_DEBUG:
     DATABASES = {
