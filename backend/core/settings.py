@@ -85,14 +85,13 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
-            'NAME': 'bitmascot',
-            'USER': 'pgadmin',
-            'PASSWORD': 'OXV5C9We4H8ZO6JrVeUCurQevLVMlKWX',
-            'HOST': 'dpg-csgocf8gph6c73bq3stg-a.singapore-postgres.render.com',
-            'PORT': 5432,
+            'NAME': 'railway',
+            'USER': 'postgres',
+            'PASSWORD': 'dBwIXntAOddJIWbaizwrMLcsIggGiEiq',
+            'HOST': 'junction.proxy.rlwy.net',
+            'PORT': 24564,
         }
     }
-
 
 AUTH_PASSWORD_VALIDATORS = [
     {
