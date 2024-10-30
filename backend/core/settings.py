@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-8e67%g%7wsd&ay(swazy)o&dfssw$(@t$+&l@*%v9sfke=a1@p'
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['bitmascotbackend.onrender.com']
 
