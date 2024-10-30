@@ -11,7 +11,7 @@ SECRET_KEY = 'django-insecure-8e67%g%7wsd&ay(swazy)o&dfssw$(@t$+&l@*%v9sfke=a1@p
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['bitmascotbackend.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 
 INSTALLED_APPS = [
