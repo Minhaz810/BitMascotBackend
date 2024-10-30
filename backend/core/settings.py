@@ -69,7 +69,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'core.wsgi.application'
 
 
-DB_DEBUG = True  # make this true if you want to use the sqlite databse, which is not a very reliable option
+DB_DEBUG = False  # make this true if you want to use the sqlite databse, which is not a very reliable option
 
 if DB_DEBUG:
     DATABASES = {
@@ -84,14 +84,15 @@ if DB_DEBUG:
 else:
     DATABASES = {
         'default': {
-            'ENGINE': os.getenv('DATABASE_ENGINE', 'django.db.backends.postgresql'),
-            'NAME': os.getenv('DATABASE_NAME'),
-            'USER': os.getenv('DATABASE_USER'),
-            'PASSWORD': os.getenv('DATABASE_PASSWORD'),
-            'HOST': os.getenv('DATABASE_HOST'),
-            'PORT': os.getenv('DATABASE_PORT'),
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'bitmascot',
+            'USER': 'pgadmin',
+            'PASSWORD': 'OXV5C9We4H8ZO6JrVeUCurQevLVMlKWX',
+            'HOST': 'dpg-csgocf8gph6c73bq3stg-a.singapore-postgres.render.com',
+            'PORT': 5432,
         }
     }
+
 
 AUTH_PASSWORD_VALIDATORS = [
     {
